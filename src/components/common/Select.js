@@ -20,11 +20,11 @@ export default function BasicSelect({
                     label="Quiz Category"
                     onChange={handleChange}
                 >
-                    <MenuItem value={9}>General Knowledge</MenuItem>
-                    <MenuItem value={10}>Entertainment: Books</MenuItem>
-                    <MenuItem value={11}>Entertainment: Film</MenuItem>
                     <MenuItem value={12}>Music: General</MenuItem>
-                    <MenuItem value={13}>Entertainment: Musical and Theatres</MenuItem>
+                    <MenuItem value={10}>Music: Pop</MenuItem>
+                    <MenuItem value={11}>Music: Rock</MenuItem>
+                    <MenuItem value={9}>Music: Classical</MenuItem>
+                    <MenuItem value={13}>Music: Rap</MenuItem>
                 </Select>
             </FormControl>
         </Box>
